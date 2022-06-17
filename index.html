@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <title>Danny Dev | CV</title>
+  </head>
+  <body class="font-sans antialiased w-full">
+    <div class="container mx-auto max-w-screen-xl">
+      <main
+        id="wrapper"
+        class="flex flex-col sm:flex-row-reverse sm:m-12 shadow-2xl"
+      >
+        <div
+          id="sidebar"
+          class="w-full sm:max-w-sm p-8 bg-gradient-to-b from-indigo-300 via-green-300 to-white"
+        >
+          <div class="px-2 mb-12">
+            <img
+              src="./assets/sam.jpeg"
+              alt="Profile Picture"
+              class="rounded-full w-48 mx-auto mb-2"
+            />
+            <h1 class="text-center text-3xl font-semibold mb-2">
+              Samaksh Grover
+            </h1>
+            <h2 class="text-center text-xl font-light">Fullstack Developer</h2>
+          </div>
+
+          <div class="font-light text-lg px-2 mb-12">
+            <h2 class="text-xl font-semibold mb-4">Contact</h2>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/mail-outline.svg"
+                class="inline w-6 mr-4"
+                alt="Mail icon"
+              />
+              <a href="mailto:">samakshgrover@gmail.com</a>
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/call-outline.svg"
+                class="inline w-6 mr-4"
+                alt="Phone icon"
+              />
+              <a href="tel:">+91-8385930606</a>
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/home-outline.svg"
+                class="inline w-6 pb-1 mr-4"
+                alt="House icon"
+              />
+              <div>
+                <p>Meera Chownk</p>
+                <p>Ganganagar, Rajasthan</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="font-light text-lg px-2 mb-12">
+            <h2 class="text-xl font-semibold mb-4">Personal</h2>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/egg-outline.svg"
+                class="inline w-6 mr-4"
+                alt="Egg Icon"
+              />
+              <span>Born on 27th of May 2000</span>
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/people-outline.svg"
+                class="inline w-6 mr-4"
+                alt="Two Persons Icon"
+              />
+              <span>Married, two kids</span>
+            </div>
+          </div> -->
+
+          <div class="font-light text-lg px-2 mb-12">
+            <h2 class="text-xl font-semibold mb-4">On the Web</h2>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/logo-github.svg"
+                class="inline w-6 mr-4"
+                alt="GitHub Logo"
+              />
+              <a
+                href="https://github.com/samakshgrover"
+                target="_blank"
+                rel="noopener noreferrer"
+                >github.com/samakshgrover</a
+              >
+            </div>
+            <!--  -->
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/logo-linkedin.svg"
+                class="inline w-6 mr-4"
+                alt="LinkedIn Logo"
+              />
+              <a
+                href="https://www.linkedin.com/in/samakshgrover"
+                target="_blank"
+                rel="noopener noreferrer"
+                >linkedin.com/in/samakshgrover/</a
+              >
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/logo-twitter.svg"
+                class="inline w-6 mr-4"
+                alt="Twitter Logo"
+              />
+              <a
+                href="https://twitter.com/samaksh_grover"
+                target="_blank"
+                rel="noopener noreferrer"
+                >twitter.com/samaksh_grover</a
+              >
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="./assets/globe-outline.svg"
+                class="inline w-6 mr-4"
+                alt="Globe icon"
+              />
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Portfolio/samakshgrover.com</a
+              >
+            </div>
+          </div>
+
+          <div class="font-light text-lg px-2 mb-12">
+            <h2 class="text-xl font-semibold mb-4">Skills & Tools</h2>
+            <ul class="list-none">
+              <li>
+                <label for="react-skill">React</label>
+                <progress id="react-skill" max="100" value="70"></progress>
+              </li>
+              <li>
+                <label for="js-skill">JavaScript</label>
+                <progress id="js-skill" max="100" value="70"></progress>
+              </li>
+
+              <li>
+                <label for="node-skill">Node / Express.js</label>
+                <progress id="node-skill" max="100" value="70"></progress>
+              </li>
+              <li>
+                <label for="mongo">MongoDB</label>
+                <progress id="mongo" max="100" value="60"></progress>
+              </li>
+              <li>
+                <label for="rtc">WebRTC</label>
+                <progress id="rtc" max="100" value="60"></progress>
+              </li>
+              <li>
+                <label for="design-skill">Mui(Material UI)</label>
+                <progress id="design-skill" max="100" value="70"></progress>
+              </li>
+              <li>
+                <div>Infrastructure / Hosting / DB</div>
+                <p class="leading-8">
+                  <span class="rounded-xl bg-gray-300 px-3">Netlify</span>
+                  <!-- <span class="rounded-xl bg-gray-300 px-3">Vercel</span> -->
+                  <span class="rounded-xl bg-gray-300 px-3">Heroku</span>
+                  <!-- <span class="rounded-xl bg-gray-300 px-3">DynamoDB</span> -->
+                  <span class="rounded-xl bg-gray-300 px-3">MongoDB</span>
+                  <!-- <span class="rounded-xl bg-gray-300 px-3">SQLite</span> -->
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- <div class="font-light text-lg px-2 mb-12">
+            <h2 class="text-xl font-semibold mb-4">Education</h2>
+            <h3 class="font-semibold">BSc Computer Science</h3>
+            <p>2016 - 2019 University of London</p>
+          </div> -->
+
+          <div class="font-light text-lg px-2 mb-12">
+            <h2 class="text-xl font-semibold mb-4">Languages</h2>
+            <h3 class="font-semibold">English</h3>
+            <p>Good</p>
+            <h3 class="font-semibold">Hindi</h3>
+            <p>Native</p>
+            <h3 class="font-semibold">Punjabi</h3>
+            <p>Native</p>
+          </div>
+        </div>
+        <div class="content w-full p-12">
+          <div id="profile" class="prose">
+            <h2 class="section-headline">Profile</h2>
+            <p>
+              I'm a self-taught full stack web developer focusing on the core
+              web fundamentals - HTML, CSS and JS. I'm experienced in frontend
+              frameworks like React and. I write SCSS or use CSS frameworks like
+              Mui/Material ui, to speed up styling of my projects.
+            </p>
+            <p>
+              I am highly motivated in expanding my horizons day by day for
+              better performance, testing and user experience.
+            </p>
+          </div>
+
+          <hr class="mt-8 mb-12" />
+
+          <!-- <div id="experience" class="prose">
+            <h2 class="section-headline">Experience</h2>
+            <div>
+              <h3>Example Inc</h3>
+              <section class="mb-6">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Jul.&nbsp;2019:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  Fullstack Developer
+                </div>
+              </section>
+              <section class="mb-6">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Task:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </section>
+              <section class="mb-6">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Description:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum.
+                </div>
+              </section>
+              <section class="mb-6">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Tools:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  <span class="rounded-xl bg-gray-300 px-3">Vue</span>
+                  <span class="rounded-xl bg-gray-300 px-3">Vuex</span>
+                  <span class="rounded-xl bg-gray-300 px-3">Bootstrap</span>
+                  <span class="rounded-xl bg-gray-300 px-3">Docker</span>
+                  <span class="rounded-xl bg-gray-300 px-3">Git</span>
+                  <span class="rounded-xl bg-gray-300 px-3">Bitbucket</span>
+                  <span class="rounded-xl bg-gray-300 px-3">Jira</span>
+                </div>
+              </section>
+            </div>
+          </div> -->
+          <!-- <hr class="mt-8 mb-12" /> -->
+
+          <div id="projects" class="prose">
+            <h2 class="section-headline">Projects</h2>
+            <div class="mb-16">
+              <h3 id="chrisko-headline">Natours API</h3>
+              <section class="mb-6">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Natours API:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  This Api is using Node.js, Express as backend and MongoDB as
+                  Database server
+                </div>
+              </section>
+              <section class="mb-6">
+                <!-- <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Deployed to:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  <a
+                    href="https://chrisko.io"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >chrisko.io</a
+                  >
+                </div> -->
+              </section>
+              <section class="mb-6">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Code on:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  <a
+                    href="https://github.com/samakshgrover/natoursApi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub/natoursApi</a
+                  >
+                </div>
+              </section>
+              <!-- <section class="mb-6">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Features:
+                </div>
+                 <div class="lg:inline-block lg:w-8/12 w-full">
+                  <ul>
+                    <li>Static generation</li>
+                    <li>Blog content written in Markdown</li>
+                    <li>Counter for pageviews and likes</li>
+                    <li>My latest tweets</li>
+                    <li>Featured images made with Inkscape</li>
+                    <li>SEO</li>
+                  </ul>
+                </div> 
+              </section> -->
+
+              <section class="mb-6">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Built with:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  <span class="rounded-xl bg-gray-300 px-3">Node.js</span>
+                  <span class="rounded-xl bg-gray-300 px-3">Express</span>
+                  <span class="rounded-xl bg-gray-300 px-3">MongoDB</span>
+                  <span class="rounded-xl bg-gray-300 px-3">Pug</span>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div id="projects" class="prose">
+            <div class="mb-16">
+              <h3 id="chrisko-headline">Natours LandingPage</h3>
+              <section class="mb-2">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Frontend of Natours:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  This is landing of natours website. This beautiful landing
+                  page is made using on CSS/SCSS.
+                </div>
+              </section>
+              <section class="mb-2">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Deployed to:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  <a
+                    href="https://mycssproject.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Netlify.app</a
+                  >
+                </div>
+              </section>
+              <section class="mb-2">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Code on:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  <a
+                    href="https://github.com/samakshgrover/tours"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub/samakshgrover/tours</a
+                  >
+                </div>
+              </section>
+              <section class="mb-2">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Features:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  <ul>
+                    <li>Fully responsive</li>
+                    <li>Beautiful interface</li>
+                    <li>Only CSS/SCSS</li>
+                  </ul>
+                </div>
+              </section>
+
+              <section class="mb-2">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Built with:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  <span class="rounded-xl bg-gray-300 px-3">Html</span>
+                  <span class="rounded-xl bg-gray-300 px-3">CSS</span>
+                  <span class="rounded-xl bg-gray-300 px-3">SCSS</span>
+                  <span class="rounded-xl bg-gray-300 px-3">Netlify</span>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <div id="projects" class="prose">
+            <div class="mb-16">
+              <h3 id="chrisko-headline">Strangers Meet App</h3>
+              <section class="mb-2">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Video Chatting web app:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  A video chatting app with video audio chatting app. Using
+                  Socket.io, WebRTC and NodeJS as backend server.
+                </div>
+              </section>
+              <section class="mb-1">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Deployed to:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  <a
+                    href="https://mychatmeetapp.herokuapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >herokuapp</a
+                  >
+                </div>
+              </section>
+              <section class="mb-1">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Code on:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  <a
+                    href="https://github.com/samakshgrover/webRTC"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub/samakshgrover/webRTC</a
+                  >
+                </div>
+              </section>
+              <section class="mb-1">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Features:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  <ul>
+                    <li>Direct peer to peer calling</li>
+                    <li>Chatting using webRTC data channel</li>
+                    <li>NodeJS as Backend</li>
+                  </ul>
+                </div>
+              </section>
+
+              <section class="mb-1">
+                <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                  Built with:
+                </div>
+                <div class="lg:inline-block lg:w-8/12 w-full">
+                  <span class="rounded-xl bg-gray-300 px-3">Html</span>
+                  <span class="rounded-xl bg-gray-300 px-3">CSS</span>
+                  <span class="rounded-xl bg-gray-300 px-3">Socket.io</span>
+                  <span class="rounded-xl bg-gray-300 px-3">WebRTC</span>
+                  <span class="rounded-xl bg-gray-300 px-3">NodeJS</span>
+                  <span class="rounded-xl bg-gray-300 px-3">Heroku</span>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <!-- <div id="projects" class="prose">
+            <h2 class="section-headline">Expand my skills</h2>
+            <div class="mb-16">
+              <h4 id="expand-knowledge-headline">
+                I'd like to expand my skills and knowledge in several fields
+              </h4>
+              <ul>
+                <li>TypeScript</li>
+                <li>Testing, e.g. with Mocha, Chai, Jest</li>
+                <li>Web Components, e.g. with StencilJS, LitElement</li>
+                <li>Prototyping and Wireframing, e.g. with Figma, Adobe XD</li>
+                <li>Scalable Vector Graphics</li>
+                <li>Databases</li>
+                <li>Mobile development</li>
+                <li>
+                  Backend development, e.g. learn additional language like Go,
+                  Python, PHP, Ruby, Java, Rust
+                </li>
+              </ul>
+            </div>
+          </div> -->
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
